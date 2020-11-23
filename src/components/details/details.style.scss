@@ -1,0 +1,18 @@
+.detail-container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+
+    .description{
+
+        h1{
+            font-weight: 700;
+            margin-bottom: 3vh;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

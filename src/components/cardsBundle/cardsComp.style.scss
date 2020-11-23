@@ -1,0 +1,35 @@
+.detail-container-2{
+    background-color:hsl(0, 0%, 90%);
+    display: flex;
+    flex-direction: row;
+    padding: 10vh 10vh 10vh 10vw;
+    
+
+    .card-container{
+        z-index: 2;
+        width: 24vw;
+        min-height: 30vh;
+        border-radius: 10px;
+        background-color:white;
+        margin-bottom: 10vh;
+        
+        &:not(:last-child){
+            margin-right: 3vw;
+        }
+        &:nth-child(2n){
+            transform: translateY(5vh);
+        }
+        &:nth-child(3n){
+            transform: translateY(10vh);
+            
+        }
+    }
+    .line{
+        position:absolute;
+        transform: translateY(20vh) translateX(10vw);
+        width:60vw;
+        height:1vh;
+        background-color: hsl(180, 66%, 49%);
+        z-index: 1;
+      }
+}

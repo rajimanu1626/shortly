@@ -1,0 +1,24 @@
+.card{
+    border: none;
+    border-radius: 10px;
+    padding: 30px;
+    
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+        background-color:hsl(257, 27%, 26%);
+        border-radius: 100%;
+        transform: translateY(-10vh) translateX(2vw);
+    }
+    .text-container{
+        transform: translateY(-2vh);
+    }
+   h1{
+    font-size: 1.5rem;
+    font-weight: bolder;
+   }
+    
+}
