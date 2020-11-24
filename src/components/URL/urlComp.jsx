@@ -48,7 +48,7 @@ class UrlComp extends React.Component{
                                 }
             let requestHeaders = {
                     "Content-Type": "application/json",
-                    "apikey": "dba7275d20f34de18cd3bfbcaedafded",}
+                    "apikey": process.env.API_KEY,} //Put your api key here
 
             request({
                     uri: "https://api.rebrandly.com/v1/links",
